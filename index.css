@@ -1,6 +1,7 @@
 :root{
     --colorFondoUno: rgba(239, 241, 228, 0.5);
     --colorFondoDos:  rgb(234, 247, 205);
+    --colorBotonTextoBusqueda: rgb(116, 113, 113);
 }
 
 
@@ -18,7 +19,7 @@ body{
 #header{
   width: 80%;
   height: 30%;
-  background-color: var(--colorFondoDos);
+  background-color: var(--colorFondoUno);
   margin: auto;
   padding: 1em;
   text-align: center;
@@ -30,12 +31,18 @@ body{
 /** ----ESTRUCTURA PRINCIPAL ------------*/
 
 #h4{
-    
+    color: var(--colorBotonTextoBusqueda);
     padding: 9px;
     text-align: center;
     font-size: 20px;
 }
-.nav-link :hover{ background-color: rgb(247, 247, 173);}
+.nav-link :hover{ 
+    background-color: rgb(247, 247, 173);
+    
+}
+/* El nav-link superior, es el contenedor del h4 de arriba*/
+
+
 .row{
     margin-top: 1em;
 }
@@ -47,10 +54,11 @@ body{
     margin-top: 25px;
     margin-left: 10px;
     z-index: 1;
+    background-color: var(--colorBotonTextoBusqueda);
+    color: white;
+    border-radius: 5px;
 }
-#boton :hover{
-    background-color: rgb(243, 243, 103);
-}
+
 /** ----MEDIA QUERY ------------*/
 @media only screen and (max-width: 700px) {
     body {
