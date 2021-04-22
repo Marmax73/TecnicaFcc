@@ -1,6 +1,6 @@
 :root{
-    --colorFondoUno: rgba(211, 238, 230, 0.5);
-    --colorFondoDos:  rgb(214, 224, 191);
+    --colorFondoUno: rgba(239, 241, 228, 0.5);
+    --colorFondoDos:  rgb(234, 247, 205);
 }
 
 
@@ -30,11 +30,12 @@ body{
 /** ----ESTRUCTURA PRINCIPAL ------------*/
 
 #h4{
-    border: solid 1px darkblue;
+    
     padding: 9px;
     text-align: center;
     font-size: 20px;
 }
+.nav-link :hover{ background-color: rgb(247, 247, 173);}
 .row{
     margin-top: 1em;
 }
