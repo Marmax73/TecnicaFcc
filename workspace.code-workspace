@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../Escritorio/TecnicaFcc"
+		},
+		{
+			"name": "TecnicaFcc",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TecnicaFcc"
+	}
+}
